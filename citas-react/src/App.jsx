@@ -1,9 +1,21 @@
+/* Importar los modulos */
+
+import { Formulario } from "./assets/Componets/Formulario"
+import Header from "./assets/Componets/Header"
+import { ListaPacientes } from "./assets/Componets/ListaPacientes"
+
+/* Funcion creadora de la aplicacion */
 function App() {
-  /* estado de retorno constante */
 
   return (
+   
     /* etiqueta padre y el body de la pagina */
     <div>
+
+    <Header/>
+    <Formulario/>
+    <ListaPacientes/>
+
     </div>
   )
 }
