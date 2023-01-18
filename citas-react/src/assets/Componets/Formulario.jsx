@@ -21,6 +21,8 @@ export const Formulario = () => {
         <input id="mascota" type="text" className='border-2
         w-full p-2 mt-2 placeholder-gray-400 rounded-md'
         placeholder='Nombre de la mascota' />
+    
+
       </div>
     </form>  
    </div>
