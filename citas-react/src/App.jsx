@@ -15,8 +15,6 @@ function App() {
     <Formulario/>
     <ListaPacientes/>
     </div>
-  
-
     </div>
   )
 }
